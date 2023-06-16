@@ -1,17 +1,4 @@
-<<<<<<< Updated upstream
-import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
-import 'screens/penalty/data_penalty_screen.dart';
-import 'screens/penalty/penalty_screen.dart';
-import '/themes/colors.dart';
-import 'screens/main_screen.dart';
-import 'screens/penalty/check_penalty_screen.dart';
 
-void main() {
-  WidgetsFlutterBinding.ensureInitialized();
-  SystemChrome.setPreferredOrientations(
-      [DeviceOrientation.portraitUp, DeviceOrientation.portraitDown]);
-=======
 import 'package:autolife_application_3/pages/accommodations_page/screen/view/page/list_accom_page.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
@@ -33,14 +20,12 @@ import 'routes/app_routes.dart';
 
 void main() async {
   setupInjections();
->>>>>>> Stashed changes
   runApp(const MyApp());
 }
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
-<<<<<<< Updated upstream
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -58,7 +43,7 @@ class MyApp extends StatelessWidget {
         CheckPenaltyScreen.pageRoute: (context) => const CheckPenaltyScreen(),
         DataPenaltyScreen.pageRoute: (context) => const DataPenaltyScreen(),
       },
-=======
+
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
@@ -91,7 +76,6 @@ class MyApp extends StatelessWidget {
           },
         ),
       ),
->>>>>>> Stashed changes
-    );
-  }
+    )});}
+  
 }
